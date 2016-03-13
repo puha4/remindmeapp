@@ -49,4 +49,8 @@ public class RemindListAdapter extends RecyclerView.Adapter<RemindListAdapter.Re
             cardView = (CardView) itemView.findViewById(R.id.cardView);
         }
     }
+
+    public void setData(List<RemindDTO> data) {
+        this.data = data;
+    }
 }
